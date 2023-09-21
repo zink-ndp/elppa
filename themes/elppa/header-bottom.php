@@ -33,7 +33,7 @@
                                     <a href="index.html" class="">Trang chủ</a>
                                 </li>
                                 <li>
-                                    <a href="category.html" class="sf-with-ul">Cửa hàng</a>
+                                    <a href="<?php bloginfo('stylesheet_directory') ?>/category.php" class="sf-with-ul">Cửa hàng</a>
 
                                     <div class="megamenu megamenu-md">
                                         <div class="row no-gutters">
