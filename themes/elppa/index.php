@@ -1,13 +1,4 @@
-<?php require 'head.php' ?>
-
-<body>
-    <div class="page-wrapper">
-        <header class="header header-intro-clearance header-3">
-            <?php  
-                require 'header-middle.php';
-                require 'header-bottom.php';
-            ?>
-        </header>
+<?php get_header() ?>
 
         <main class="main">
             <div class="intro-section pt-3 pb-3 mb-2">

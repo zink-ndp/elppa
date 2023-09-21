@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>ELPPA - World of Watch</title>
+    <?php wp_head() ?>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="ELPPA - World of Watch">
     <meta name="author" content="p-themes">
@@ -32,3 +33,13 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/skins/skin-demo-3.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/demos/demo-3.css">
 </head>
+
+
+<body>
+    <div class="page-wrapper">
+        <header class="header header-intro-clearance header-3">
+            <?php  
+                require 'header-middle.php';
+                require 'header-bottom.php';
+            ?>
+        </header>
