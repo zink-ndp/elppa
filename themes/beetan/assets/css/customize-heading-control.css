@@ -1,0 +1,25 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+.accordion-section-content li:nth-child(2).customize-control-heading .customize-heading-control-title {
+  margin-top: -15px;
+  margin-bottom: 0;
+}
+
+.customize-heading-control-title {
+  background-color: #2271b1;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  margin: 5px -15px;
+  font-size: 1rem;
+  font-weight: 200;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}

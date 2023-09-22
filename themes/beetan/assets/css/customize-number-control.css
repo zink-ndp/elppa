@@ -1,0 +1,60 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+.customize-control-number {
+  margin-top: 10px;
+}
+
+.customize-control-number-input-wrapper {
+  display: block;
+}
+.customize-control-number-input-wrapper .customize-control-title {
+  float: left;
+  margin-top: 2px;
+  max-width: calc(100% - 60px);
+}
+.customize-control-number-input-wrapper .customize-control-number-input {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.customize-control-number-input-wrapper .customize-control-number-input input {
+  min-width: 50px;
+  display: inline-block;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+.customize-control-number-input-wrapper .customize-control-number-input input::-webkit-outer-spin-button, .customize-control-number-input-wrapper .customize-control-number-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.customize-control-number-input-wrapper .customize-control-number-input input[type=number] {
+  -moz-appearance: textfield;
+}
+.customize-control-number-input-wrapper .customize-control-number-input .prefix,
+.customize-control-number-input-wrapper .customize-control-number-input .suffix {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #8c8f94;
+  margin-left: -3px;
+  border-radius: 0 3px 3px 0;
+  cursor: default;
+}
+.customize-control-number-input-wrapper .customize-control-number-input .prefix {
+  border-radius: 3px 0 0 3px;
+  margin-left: 0;
+  margin-right: -3px;
+  z-index: 1;
+}

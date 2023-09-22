@@ -1,0 +1,728 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+@font-face {
+  font-family: "Material Icons Outlined";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/MaterialIconsOutlined-Regular.woff2) format("woff2"), url(../fonts/MaterialIconsOutlined-Regular.woff) format("woff"), url(../fonts/MaterialIconsOutlined-Regular.ttf) format("truetype");
+}
+.material-icons {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+}
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: var(--beetan-base-font-size);
+}
+
+body {
+  margin: 0;
+  color: var(--beetan-text-color);
+  background: var(--beetan-site-background-color);
+  font-family: var(--beetan-body-font-family);
+  font-size: 1rem;
+  font-weight: var(--beetan-base-font-weight);
+  line-height: var(--beetan-base-line-height);
+  overflow-x: hidden;
+}
+
+main {
+  display: block;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: 500;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1rem;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.156rem;
+}
+
+sup {
+  top: -0.313rem;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  clear: both;
+  color: var(--beetan-heading-color);
+  font-family: var(--beetan-heading-font-family);
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: var(--beetan-link-hover-color);
+}
+
+h1 {
+  font-size: var(--beetan-h1-font-size);
+  font-weight: var(--beetan-h1-font-weight);
+  line-height: var(--beetan-h1-line-height);
+  margin-top: var(--beetan-h1-margin-top);
+  margin-bottom: var(--beetan-h1-margin-bottom);
+}
+
+h2 {
+  font-size: var(--beetan-h2-font-size);
+  font-weight: var(--beetan-h2-font-weight);
+  line-height: var(--beetan-h2-line-height);
+  margin-top: var(--beetan-h2-margin-top);
+  margin-bottom: var(--beetan-h2-margin-bottom);
+}
+
+h3 {
+  font-size: var(--beetan-h3-font-size);
+  font-weight: var(--beetan-h3-font-weight);
+  line-height: var(--beetan-h3-line-height);
+  margin-top: var(--beetan-h3-margin-top);
+  margin-bottom: var(--beetan-h3-margin-bottom);
+}
+
+h4 {
+  font-size: var(--beetan-h4-font-size);
+  font-weight: var(--beetan-h4-font-weight);
+  line-height: var(--beetan-h4-line-height);
+  margin-top: var(--beetan-h4-margin-top);
+  margin-bottom: var(--beetan-h4-margin-bottom);
+}
+
+h5 {
+  font-size: var(--beetan-h5-font-size);
+  font-weight: var(--beetan-h5-font-weight);
+  line-height: var(--beetan-h5-line-height);
+  margin-top: var(--beetan-h5-margin-top);
+  margin-bottom: var(--beetan-h5-margin-bottom);
+}
+
+h6 {
+  font-size: var(--beetan-h6-font-size);
+  font-weight: var(--beetan-h6-font-weight);
+  line-height: var(--beetan-h6-line-height);
+  margin-top: var(--beetan-h6-margin-top);
+  margin-bottom: var(--beetan-h6-margin-bottom);
+}
+
+p {
+  margin-top: var(--beetan-paragraph-margin-top);
+  margin-bottom: var(--beetan-paragraph-margin-bottom);
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 0.25rem solid var(--beetan-primary-color);
+  background: #EAF8F2;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1.875rem !important;
+  padding: 1.875rem;
+  font-style: italic;
+  border-radius: 0.1875rem;
+}
+blockquote p {
+  margin-bottom: 0;
+}
+blockquote cite {
+  font-weight: 500;
+}
+blockquote *:last-child {
+  margin-bottom: 0;
+}
+
+address {
+  margin: 0 0 0.938rem;
+}
+
+pre {
+  background: #f4f5f6;
+  font-family: "Courier 10 Pitch", courier, monospace;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1.875rem 0;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.875rem;
+  border-radius: 0.1875rem;
+  overflow-y: hidden;
+}
+
+code,
+kbd,
+tt,
+var {
+  font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+code {
+  background: #eeeeee;
+  border-radius: 0.25rem;
+  font-size: 86%;
+  padding: 0.125rem 0.313rem;
+  /*white-space: nowrap;*/
+}
+
+pre > code {
+  background: #f4f5f6;
+  border-radius: 0;
+  display: block;
+  padding: 0.625rem 0.938rem;
+  white-space: pre;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark,
+ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+big {
+  font-size: 125%;
+}
+
+/* Elements */
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.875rem;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  overflow: visible;
+}
+
+dl,
+ul,
+ol {
+  margin: 0 0 1.875rem 1.25rem;
+  padding-left: 0;
+}
+dl li,
+ul li,
+ol li {
+  margin-bottom: 0.313rem;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin: 0.313rem 0 0 0.938rem;
+}
+
+dt {
+  font-weight: 500;
+}
+
+dd {
+  margin: 0 0.938rem 0.625rem;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  border-style: none;
+}
+
+figure {
+  margin: 0.938rem 0;
+}
+
+table {
+  border-spacing: 0;
+  display: block;
+  overflow-x: auto;
+  text-align: left;
+  width: 100%;
+  margin: 0 0 1.875rem;
+  border-right: 1px solid #cbcbcb;
+  border-top: 1px solid #cbcbcb;
+}
+table tr {
+  border-bottom: 1px solid #cbcbcb;
+}
+table tr th {
+  background: #f9f9f9;
+  font-weight: 500;
+}
+table tr th,
+table tr td {
+  border-left: 1px solid #cbcbcb;
+}
+table tbody {
+  font-size: 90%;
+}
+table td,
+table th {
+  border-bottom: 1px solid #cbcbcb;
+  padding: 0.313rem 0.625rem;
+}
+
+@media (min-width: 25rem) {
+  table {
+    display: table;
+    overflow-x: initial;
+  }
+}
+/* Links */
+a {
+  color: var(--beetan-link-color);
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover, a:focus, a:active {
+  color: var(--beetan-link-hover-color);
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover, a:active {
+  outline: 0;
+}
+
+body.mce-content-body {
+  margin: 10px;
+}
+
+table {
+  border-right: 0;
+  border-top: 0;
+}
+table td, table th {
+  border-bottom: 0;
+}
+table tr th,
+table tr td {
+  border-left: 0;
+}
+
+.mce-item-table,
+.mce-item-table td,
+.mce-item-table th,
+.mce-item-table caption {
+  border-style: solid;
+  border-color: #cbcbcb;
+}
+
+.wp-block-post-content h1,
+.wp-block-post-content h2,
+.wp-block-post-content h3,
+.wp-block-post-content h4,
+.wp-block-post-content h5,
+.wp-block-post-content h6 {
+  color: var(--beetan-sub-heading-color);
+}
+
+/* Block: Gallery */
+.blocks-gallery-grid .blocks-gallery-image figure,
+.blocks-gallery-grid .blocks-gallery-item figure,
+.wp-block-gallery .blocks-gallery-image figure,
+.wp-block-gallery .blocks-gallery-item figure {
+  position: relative;
+}
+.blocks-gallery-grid .blocks-gallery-image figcaption,
+.blocks-gallery-grid .blocks-gallery-item figcaption,
+.wp-block-gallery .blocks-gallery-image figcaption,
+.wp-block-gallery .blocks-gallery-item figcaption {
+  max-width: 100%;
+}
+
+figure.wp-block-gallery {
+  margin-bottom: 1.875rem !important;
+}
+figure.wp-block-gallery.alignleft {
+  margin-right: 1.875rem;
+}
+figure.wp-block-gallery.alignright {
+  margin-left: 1.875rem;
+}
+
+ul.blocks-gallery-grid .blocks-gallery-item {
+  padding-left: 0 !important;
+}
+ul.blocks-gallery-grid .blocks-gallery-item:after {
+  display: none;
+}
+
+.wp-block-image {
+  margin-bottom: 1.875rem;
+}
+.wp-block-image.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-block-image.alignleft {
+  float: left;
+  margin-right: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.wp-block-image.alignright {
+  float: right;
+  margin-left: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.wp-block-quote {
+  border-left: 0.25rem solid var(--beetan-primary-color);
+  background: #EAF8F2;
+  padding: 1.875rem;
+  font-size: 1.125rem;
+  margin: 0 auto 1.875rem auto;
+}
+.wp-block-quote.has-text-align-right {
+  border-color: var(--beetan-primary-color);
+}
+.wp-block-quote p {
+  margin-bottom: 0;
+}
+.wp-block-quote__citation,
+.wp-block-quote cite,
+.wp-block-quote footer {
+  margin-top: 10px;
+  display: block;
+}
+
+.logged-in-as a {
+  color: #222;
+}
+
+.entry-content .wp-block-button a.wp-block-button__link {
+  text-decoration: none;
+}
+
+/*new unit test*/
+.post-text > .alignwide {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.post-text p.has-large-font-size {
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
+
+.wp-block-archives select,
+.wp-block-archives .postform {
+  height: 2.625rem;
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 0 0.625rem;
+}
+
+.wp-block-categories .postform {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  float: none;
+  margin-bottom: 15px;
+}
+
+.wp-block-archives .nice-select {
+  float: none;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.wp-block-latest-comments {
+  padding-left: 0 !important;
+}
+
+.wp-block-latest-posts.has-dates {
+  padding-left: 0;
+}
+
+.wp-block-latest-comments__comment {
+  line-height: 1.5 !important;
+}
+
+ul.wp-block-archives-list.wp-block-archives li {
+  margin-bottom: 15px;
+}
+
+.wp-block-latest-posts__featured-image {
+  margin-right: 20px !important;
+}
+
+.wp-block-calendar,
+.wp-block-archives,
+.wp-block-search,
+.wp-block-categories {
+  margin-bottom: 30px;
+}
+
+.wp-block-calendar caption {
+  margin-bottom: 10px;
+}
+
+.wp-block-calendar table {
+  text-align: center;
+}
+
+.wp-block-media-text ~ p {
+  margin-top: 1.5em;
+}
+
+.wp-block-embed {
+  margin: 0 0 1.875rem 0;
+}
+
+.wp-block-audio {
+  margin: 0 0 1.875rem 0;
+}
+.wp-block-audio audio {
+  width: 100%;
+  min-width: 300px;
+  display: block;
+}
+
+.wp-block-video figcaption {
+  margin-bottom: 1.875rem;
+}
+
+.wp-block-cover.has-background-dim p,
+.wp-block-cover.has-background-dim a,
+.wp-block-cover.has-background-dim strong {
+  color: #f4f7fa;
+}
+
+.wp-block-table {
+  margin-bottom: 1.875rem;
+}
+.wp-block-table table {
+  margin-bottom: 0;
+}
+
+.wp-block-search {
+  position: relative;
+}
+.wp-block-search__label {
+  display: none;
+}
+.wp-block-search input[type=search] {
+  min-width: 250px;
+  padding: 10px 50px 10px 15px;
+}
+.wp-block-search button[type=submit] {
+  background: transparent;
+  padding: 0;
+  border: 0;
+}
+.wp-block-search__input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  padding: 0 0.9375rem;
+}
+.wp-block-search__button {
+  font-size: 0;
+}
+.wp-block-search__button:after {
+  position: absolute;
+  content: "\e8b6";
+  font-family: "Material Icons Outlined";
+  top: 20px;
+  right: -20px;
+  font-size: 1.25rem;
+  line-height: 20px;
+  color: #444;
+  padding: 0.625rem;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.wp-block-search__button:focus:after {
+  outline: thin dotted;
+}
+
+.widget-area .wp-block-search input[type=search] {
+  background: #fff;
+}
+
+.block-editor-block-list__layout a {
+  text-decoration: underline;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ul,
+.wp-block-freeform.block-library-rich-text__tinymce ol {
+  margin-left: 1.25rem;
+  padding-left: 0;
+}
+
+.wp-block-button {
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+.wp-block-button__link {
+  color: #fff;
+  background-color: #333333;
+  border: 1px solid currentColor;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 15px 30px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.wp-block-button__link:hover {
+  background-color: var(--beetan-primary-color);
+  border-color: var(--beetan-primary-color);
+  color: #fff;
+}
+.wp-block-button.is-style-outline .wp-block-button__link {
+  color: #333;
+  font-size: 14px;
+  border: 1px solid currentColor;
+  padding: 15px 30px;
+}
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+  background: transparent;
+  color: var(--beetan-primary-color);
+}
