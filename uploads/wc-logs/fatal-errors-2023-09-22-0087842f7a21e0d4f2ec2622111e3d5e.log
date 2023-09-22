@@ -1,0 +1,5 @@
+2023-09-22T02:22:37+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/theme/beetan/homepage.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\wordpress\index.php on line 19
+
