@@ -1,0 +1,10 @@
+2023-09-21T02:56:13+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/elppa/inc/init.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\elppa\functions.php:8
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(600): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elppa\functions.php on line 8
+

@@ -27,18 +27,14 @@
                     </div><!-- End .header-left -->
 
                     <div class="header-center">
-                        <nav class="main-nav" >
-                            <!-- lỗi giao diện chỗ này -->
-                            <?php wp_nav_menu(
-                                        array(
-                                            'theme_location' => 'header-main',
-                                            'container' => 'faise',
-                                            'menu_id' => 'header-main',
-                                            'menu_class' => 'header-main'
-                                        )
-                                        );
-                            ?>
-                        </nav><!-- End .main-nav -->
+                        <?php wp_nav_menu( 
+                            array( 
+                                'theme_location' => 'header-bottom', 
+                                'container' => 'true', 
+                                'menu_id' => 'header-bottom', 
+                                'menu_class' => 'menu'
+                            ) 
+                        ); ?>
                     </div><!-- End .header-center -->
                     <div class="header-right">
                         <div class="dropdown cart-dropdown">
