@@ -1,0 +1,35 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+/* Hides the radio button */
+.customize-control-radio-image li {
+  display: inline-block;
+}
+
+.customize-control-radio-image input[type=radio] {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* Makes images look click able */
+.customize-control-radio-image img {
+  border: 2px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  height: auto;
+  max-width: 100%;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+/* Adds blue border around currently selected image */
+.customize-control-radio-image input:checked + img {
+  border-color: #1E8CBE;
+  -webkit-box-shadow: 0 12px 20px -8px rgba(30, 41, 59, 0.16);
+          box-shadow: 0 12px 20px -8px rgba(30, 41, 59, 0.16);
+}

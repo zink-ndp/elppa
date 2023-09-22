@@ -1,0 +1,155 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+.customize-control-repeatable .repeatable-fields .repeatable-row {
+  border: 1px solid #E5E5E5;
+  margin-top: 0.5rem;
+  background: #FFFFFF;
+  position: relative;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row.ui-sortable-placeholder {
+  visibility: visible !important;
+  border: 1px dotted #999999;
+  background-color: transparent;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row.minimized {
+  padding: 0;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row.minimized:hover {
+  border-color: #999999;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row.minimized .repeatable-row-content {
+  display: none;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row label {
+  margin-bottom: 12px;
+  clear: both;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row .repeatable-field.repeatable-field- {
+  display: none;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row .repeatable-field.repeatable-field-radio-image input {
+  display: none;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row .repeatable-field.repeatable-field-radio-image input img {
+  border: 1px solid transparent;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row .repeatable-field.repeatable-field-radio-image input:checked + label img {
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid #3498DB;
+}
+.customize-control-repeatable .repeatable-fields .repeatable-row .repeatable-field:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.customize-control-repeatable .repeatable-add {
+  margin-top: 1rem;
+  float: right;
+}
+.customize-control-repeatable .repeatable-add:before {
+  content: "\f132";
+  display: inline-block;
+  position: relative;
+  left: -2px;
+  top: -1px;
+  font: normal 20px/1 dashicons;
+  vertical-align: middle;
+}
+.customize-control-repeatable .repeatable-row-content {
+  padding: 10px 15px;
+}
+.customize-control-repeatable .repeatable-field {
+  margin-bottom: 12px;
+  width: 100%;
+  clear: both;
+  padding-bottom: 12px;
+  border-bottom: 1px dotted #E5E5E5;
+}
+.customize-control-repeatable .repeatable-field .customize-control-title {
+  font-size: 13px;
+  line-height: initial;
+}
+.customize-control-repeatable .repeatable-field .customize-control-description {
+  font-size: 13px;
+  line-height: initial;
+}
+.customize-control-repeatable .repeatable-field.repeatable-field-hidden {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.customize-control-repeatable .repeatable-field-select select {
+  margin-left: 0;
+}
+.customize-control-repeatable .repeatable-field-checkbox label {
+  line-height: 28px;
+}
+.customize-control-repeatable .repeatable-field-checkbox input {
+  line-height: 28px;
+  margin-right: 5px;
+}
+.customize-control-repeatable .repeatable-field-textarea textarea {
+  width: 100%;
+  resize: vertical;
+}
+.customize-control-repeatable .repeatable-row-header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+  padding: 10px 15px;
+  height: auto;
+  min-height: 20px;
+  line-height: 30px;
+  overflow: hidden;
+  word-wrap: break-word;
+  color: #23282D;
+}
+.customize-control-repeatable .repeatable-row-header:hover {
+  cursor: move;
+}
+.customize-control-repeatable .repeatable-row-header .dashicons {
+  font-size: 18px;
+  position: absolute;
+  right: 12px;
+  top: 2px;
+  color: #23282D;
+}
+.customize-control-repeatable .repeatable-row-label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  display: block;
+  width: 90%;
+  overflow: hidden;
+  height: 18px;
+}
+.customize-control-repeatable .repeatable-row-remove {
+  color: #AA0000;
+}
+.customize-control-repeatable .repeatable-row-remove:hover {
+  color: #FF0000;
+}
+.customize-control-repeatable .repeatable-minimize {
+  line-height: 36px;
+}
+.customize-control-repeatable .remove-button,
+.customize-control-repeatable .upload-button {
+  width: 48%;
+}
+
+.limit {
+  padding: 6px 0;
+  float: left;
+  border-radius: 3px;
+}
+.limit.highlight {
+  color: #D32F2F;
+  background-color: transparent;
+}

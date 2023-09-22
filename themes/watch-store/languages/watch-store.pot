@@ -1,0 +1,589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Watch Store\n"
+"Last-Translator: \n"
+"Language-Team: logicalThemes <support@logicalthemes.com>\n"
+"Language: English\n"
+"MIME-Version: 1.2.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:12
+msgid "404"
+msgstr ""
+
+#: 404.php:12
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:13
+msgid "Looks like you have taken a wrong turn"
+msgstr ""
+
+#: 404.php:14
+msgid "Dont worry it happens to the best of us."
+msgstr ""
+
+#: 404.php:16
+msgid "Return to home page"
+msgstr ""
+
+#. %s: post title
+#: comments.php:17
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:23
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: template-parts/footer/site-info.php:8
+msgid 'By LogicalThemes'
+msgstr ""
+
+#: functions.php:27
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:63
+msgid "https://wordpress.org/support/theme/watch-store/"
+msgstr ""
+
+#: functions.php:64
+msgid "https://www.logicalthemes.com/themes/watch-store-wordpress-theme/"
+msgstr ""
+
+#: functions.php:65
+msgid "https://www.logicalthemes.com/watch-store-pro/"
+msgstr ""
+
+#: functions.php:66
+msgid "https://logicalthemes.com/docs/watch-store/"
+msgstr ""
+
+#: functions.php:67
+msgid "https://www.logicalthemes.com/themes/free-watch-store-wordpress-theme/"
+msgstr ""
+
+#: functions.php:70
+msgid "Watch Store WordPress Theme"
+msgstr ""
+
+#: functions.php:132
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:133
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:142
+msgid "Posts and Pages Sidebar"
+msgstr ""
+
+#: functions.php:143 functions.php:153
+msgid "Appears on posts and pages"
+msgstr ""
+
+#: functions.php:152
+msgid "Sidebar 3"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:163 functions.php:173 functions.php:183 functions.php:193
+msgid "Appears in footer"
+msgstr ""
+
+#: functions.php:172
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:182
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:192
+msgid "Footer 4"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:41
+msgid "SIGN IN"
+msgstr ""
+
+#: header.php:41
+msgid "Login"
+msgstr ""
+
+#: header.php:48
+msgid "MY CART"
+msgstr ""
+
+#: template-parts/site-nav.php:11
+msgid "Open Menu"
+msgstr ""
+
+#: template-parts/site-nav.php:15
+msgid "Top Menu"
+msgstr ""
+
+#: template-parts/site-nav.php:27
+msgid "Close Menu"
+msgstr ""
+
+#: template-parts/single-content.php:19
+msgid "0 Comment"
+msgstr ""
+
+#: template-parts/single-content.php:19
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/single-content.php:19
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/single-content.php:42
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/single-content.php:46
+msgid "Page"
+msgstr ""
+
+#: template-parts/single-content.php:53
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: template-parts/single-content.php:58
+msgid "Next"
+msgstr ""
+
+#: template-parts/single-content.php:59
+msgid "Next post:"
+msgstr ""
+
+#: template-parts/single-content.php:60
+msgid "Previous"
+msgstr ""
+
+#: template-parts/single-content.php:61
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/single-content.php:71
+msgid "Edit"
+msgstr ""
+
+#: archive.php:34 archive.php:63 archive.php:93 archive.php:123 
+#: archive.php:153 archive.php:182 archive.php:209
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:35 archive.php:64 archive.php:94 archive.php:124 
+#: archive.php:154 archive.php:183 archive.php:210
+msgid "Next page"
+msgstr ""
+
+#: archive.php:36 archive.php:65 archive.php:95 archive.php:125 
+#: archive.php:155 archive.php:184 archive.php:211
+msgid "Page"
+msgstr ""
+
+#: index.php:33 index.php:59 index.php:86 index.php:113 index.php:140 
+#: index.php:167 index.php:192
+msgid "Previous page"
+msgstr ""
+
+#: index.php:34 index.php:60 index.php:87 index.php:114 index.php:141 
+#: index.php:168 index.php:193
+msgid "Next page"
+msgstr ""
+
+#: index.php:35 index.php:61 index.php:88 index.php:115 index.php:142 
+#: index.php:169 index.php:194
+msgid "Page"
+msgstr ""
+
+#. %s: search term
+#: search.php:20 search.php:52 search.php:85 search.php:118 search.php:151 
+#: search.php:181 search.php:213
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:22 search.php:54 search.php:87 search.php:120 search.php:153 
+#: search.php:183 search.php:215
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:30 search.php:62 search.php:95 search.php:128 search.php:161 
+#: search.php:192 search.php:223
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: search.php:39 search.php:71 search.php:104 search.php:137 search.php:170 
+#: search.php:202 search.php:232
+msgid "Previous page"
+msgstr ""
+
+#: search.php:40 search.php:72 search.php:105 search.php:138 search.php:171 
+#: search.php:203 search.php:233
+msgid "Next page"
+msgstr ""
+
+#: search.php:41 search.php:73 search.php:106 search.php:139 search.php:172 
+#: search.php:204 search.php:234
+msgid "Page"
+msgstr ""
+
+#: searchform.php:9
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:10
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Meta"
+msgstr ""
+
+#: template-parts/single-content.php:19
+#: template-parts/content-audio.php:33
+#: template-parts/content-gallery.php:30
+#: template-parts/content-image.php:27
+#: template-parts/content-video.php:34
+#: template-parts/content.php:27
+#: template-parts/grid-layout.php:27
+msgid '0 Comments'
+msgstr ""
+
+#: page-template/home-custom.php:41
+msgid "Read More"
+msgstr ""
+
+#: page-template/home-custom.php:55
+msgid "Previous"
+msgstr ""
+
+#: page-template/home-custom.php:58
+msgid "Next"
+msgstr ""
+
+#: template-parts/content-audio.php:40
+#: template-parts/content-gallery.php:37
+#: template-parts/content-image.php:34
+#: template-parts/content-video.php:41
+#: template-parts/content.php:33
+#: template-parts/grid-layout.php:33
+msgid 'Read More'
+msgstr ""
+
+#: customizer.php:87
+msgid "Watch Store Pro"
+msgstr ""
+
+#: customizer.php:88
+msgid "Go Pro"
+msgstr ""
+
+#: customizer.php:120
+msgid "LT Settings"
+msgstr ""
+
+#: customizer.php:125
+msgid "General Settings"
+msgstr ""
+
+#: customizer.php:136
+msgid "Choose sidebar between different options"
+msgstr ""
+
+#: customizer.php:137
+msgid "Post Sidebar Layout."
+msgstr ""
+
+#: customizer.php:140
+msgid "One Column "
+msgstr ""
+
+#: customizer.php:141
+msgid "Three Columns"
+msgstr ""
+
+#: customizer.php:142
+msgid "Four Columns"
+msgstr ""
+
+#: customizer.php:143
+msgid "Right Sidebar"
+msgstr ""
+
+#: customizer.php:144
+msgid "Left Sidebar"
+msgstr ""
+
+#: customizer.php:145
+msgid "Grid Layout"
+msgstr ""
+
+#: customizer.php:245
+msgid "Typography"
+msgstr ""
+
+#: customizer.php:256
+msgid "Paragraph Color"
+msgstr ""
+
+#: customizer.php:270
+msgid "Paragraph Fonts"
+msgstr ""
+
+#: customizer.php:280
+msgid "Paragraph Font Size"
+msgstr ""
+
+#: customizer.php:292
+msgid "\"a\" Tag Color"
+msgstr ""
+
+#: customizer.php:306
+msgid "\"a\" Tag Fonts"
+msgstr ""
+
+#: customizer.php:317
+msgid "\"li\" Tag Color"
+msgstr ""
+
+#: customizer.php:331
+msgid "\"li\" Tag Fonts"
+msgstr ""
+
+#: customizer.php:342
+msgid "H1 Color"
+msgstr ""
+
+#: customizer.php:356
+msgid "H1 Fonts"
+msgstr ""
+
+#: customizer.php:367
+msgid "H1 Font Size"
+msgstr ""
+
+#: customizer.php:379
+msgid "H2 Color"
+msgstr ""
+
+#: customizer.php:393
+msgid "H2 Fonts"
+msgstr ""
+
+#: customizer.php:404
+msgid "H2 Font Size"
+msgstr ""
+
+#: customizer.php:416
+msgid "H3 Color"
+msgstr ""
+
+#: customizer.php:430
+msgid "H3 Fonts"
+msgstr ""
+
+#: customizer.php:441
+msgid "H3 Font Size"
+msgstr ""
+
+#: customizer.php:453
+msgid "H4 Color"
+msgstr ""
+
+#: customizer.php:467
+msgid "H4 Fonts"
+msgstr ""
+
+#: customizer.php:478
+msgid "H4 Font Size"
+msgstr ""
+
+#: customizer.php:490
+msgid "H5 Color"
+msgstr ""
+
+#: customizer.php:504
+msgid "H5 Fonts"
+msgstr ""
+
+#: customizer.php:515
+msgid "H5 Font Size"
+msgstr ""
+
+#: customizer.php:527
+msgid "H6 Color"
+msgstr ""
+
+#: customizer.php:541
+msgid "H6 Fonts"
+msgstr ""
+
+#: customizer.php:552
+msgid "H6 Font Size"
+msgstr ""
+
+#: customizer.php:560 customizer.php:584
+msgid "Topbar"
+msgstr ""
+
+#: customizer.php:571
+msgid "Click on the checkbox to enable sticky header."
+msgstr ""
+
+#: customizer.php:572
+msgid "Sticky Header"
+msgstr ""
+
+#: customizer.php:583
+msgid "Click on the checkbox to enable Topbar."
+msgstr ""
+
+#: customizer.php:593
+msgid "Topbar Text"
+msgstr ""
+
+#: customizer.php:603
+msgid "Add Sale Text"
+msgstr ""
+
+#: customizer.php:613
+msgid "Add Sale Button Text"
+msgstr ""
+
+#: customizer.php:623
+msgid "Add Sale Button Link"
+msgstr ""
+
+#: customizer.php:630
+msgid "Slider Settings"
+msgstr ""
+
+#: customizer.php:641
+msgid "Click on the checkbox to enable slider."
+msgstr ""
+
+#: customizer.php:642
+msgid "Show / Hide slider"
+msgstr ""
+
+#: customizer.php:652
+msgid "Show / Hide Slider Title"
+msgstr ""
+
+#: customizer.php:662
+msgid "Show / Hide Slider Content"
+msgstr ""
+
+#: customizer.php:672
+msgid "Show / Hide Slider Button"
+msgstr ""
+
+#: customizer.php:682
+msgid "Select Slider Page"
+msgstr ""
+
+#: customizer.php:683
+msgid "Slider Image Size (1200px x 650px)"
+msgstr ""
+
+#: customizer.php:691
+msgid "Best Seller"
+msgstr ""
+
+#: customizer.php:700
+msgid "Section Title"
+msgstr ""
+
+#: customizer.php:710
+msgid "Section Text"
+msgstr ""
+
+#: customizer.php:720
+msgid "Select Product Page"
+msgstr ""
+
+#: customizer.php:727
+msgid "Footer Text"
+msgstr ""
+
+#: customizer.php:736
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer.php:743
+msgid "Woocommerce Shop Page"
+msgstr ""
+
+#: customizer.php:753
+msgid "Product Per Columns"
+msgstr ""
+
+#: customizer.php:754
+msgid "How many products should be shown per Column?"
+msgstr ""
+
+#: customizer.php:770
+msgid "Product Per Page"
+msgstr ""
+
+#: customizer.php:771
+msgid "How many products should be shown per page?"
+msgstr ""
+
+#: customizer.php:782
+msgid "Site Title Font Size"
+msgstr ""
+
+#: customizer.php:799
+msgid "Site Tagline Font Size"
+msgstr ""
+
+#: customizer.php:817
+msgid "Display Site Title and Tagline in Header"
+msgstr ""

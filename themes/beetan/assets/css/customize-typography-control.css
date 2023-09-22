@@ -1,0 +1,18 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+.customize-control-select {
+  margin-top: 10px;
+}
+
+.select2-dropdown, .select2-container {
+  z-index: 9999999 !important;
+}
+
+#customize-controls .customize-section-title.is-in-view.is-sticky {
+  z-index: 99999999;
+}

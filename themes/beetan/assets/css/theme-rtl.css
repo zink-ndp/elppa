@@ -1,0 +1,343 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+dl,
+ul,
+ol {
+  padding-right: 0;
+  margin: 0 1.25rem 1.875rem 0;
+}
+
+li > ul,
+li > ol {
+  margin-left: 0;
+  margin-right: 0.938rem;
+}
+
+table {
+  text-align: right;
+}
+
+blockquote {
+  border-right: 0.188rem solid var(--beetan-primary-color);
+  border-left: 0;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.alignright {
+  float: right;
+  margin-left: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+/*
+  Submit button alignment
+ */
+.search-form input[type=submit],
+.search-form button[type=submit],
+.post-password-form input[type=submit],
+.post-password-form button[type=submit] {
+  left: 0;
+  right: auto;
+}
+
+.post-password-form input[type=submit] span.material-icons,
+.post-password-form button[type=submit] span.material-icons {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/*
+  Site header
+ */
+.site-navigation ul li:hover > ul, .site-navigation ul li.focus > ul {
+  right: auto;
+}
+.site-navigation ul li.menu-item-has-children > a:after, .site-navigation ul li.page_item_has_children > a:after {
+  content: none;
+}
+.site-navigation ul li.menu-item-has-children > a:before, .site-navigation ul li.page_item_has_children > a:before {
+  content: "\e5cf";
+  font-family: "Material Icons Outlined";
+  font-size: 0.875rem;
+  vertical-align: bottom;
+  margin-left: 0;
+  margin-right: 5px;
+}
+.site-navigation ul li ul {
+  left: auto !important;
+  right: -99999px;
+}
+.site-navigation ul li ul:before {
+  right: 10%;
+  left: auto;
+}
+.site-navigation ul li ul li:hover > ul, .site-navigation ul li ul li.focus > ul {
+  right: 100%;
+  left: auto;
+}
+.site-navigation ul li ul li.menu-item-has-children > a:before, .site-navigation ul li ul li.page_item_has_children > a:before {
+  content: none;
+}
+.site-navigation ul li ul.sub-menu li.menu-item-has-children > a:after, .site-navigation ul li ul.sub-menu li.page_item_has_children > a:after, .site-navigation ul li ul.children li.menu-item-has-children > a:after, .site-navigation ul li ul.children li.page_item_has_children > a:after {
+  content: "\e5cb";
+  margin: 0;
+}
+
+.site-header__2 .site-navigation ul {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+.site-header__2 .site-navigation-right {
+  margin-left: 0;
+  margin-right: 15px;
+}
+@media (max-width: 575.98px) {
+  .site-header .menu-trigger {
+    float: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .sidebar-offcanvas-nav .offcanvas-navigation ul .children,
+.sidebar-offcanvas-nav .offcanvas-navigation ul .sub-menu {
+    margin-left: 0;
+  }
+}
+.site-navigation-right__item {
+  margin-right: 0;
+  margin-left: 25px;
+}
+.site-navigation-right li:last-child a {
+  margin-left: 0;
+}
+
+.site-mini-cart__dropdown {
+  right: auto !important;
+  left: 0;
+}
+.site-mini-cart .widget_shopping_cart .cart_list li,
+.site-mini-cart .widget_shopping_cart .product_list_widget li {
+  padding: 0 25px 15px 0 !important;
+}
+
+.search-popup .search-form input[type=search] {
+  padding: 10px 20px 10px 40px;
+}
+
+/*
+  Archive
+ */
+article.post.sticky:after, article.page.sticky:after {
+  right: inherit;
+  left: 40px;
+}
+
+.entry-meta > span,
+.entry-footer > span {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.entry-meta .material-icons {
+  margin-right: 0;
+  margin-left: 0.3125rem;
+}
+.entry-meta > span:after {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+a.read-more .material-icons {
+  margin-left: 0;
+  margin-right: 5px;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+a.read-more:hover .material-icons {
+  -webkit-transform: rotate(180deg) translateX(5px);
+      -ms-transform: rotate(180deg) translateX(5px);
+          transform: rotate(180deg) translateX(5px);
+}
+
+.pagination .nav-links .prev span.material-icons,
+.pagination .nav-links .next span.material-icons {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/*
+  Single
+ */
+.tags-links a {
+  margin: 0 0 0.625rem 0.625rem;
+}
+
+.author-bio-area .author-avatar {
+  margin-right: 0;
+  margin-left: 1.5625rem;
+}
+
+.nav-links .nav-next img {
+  float: left;
+  margin-left: 0;
+  margin-right: 1.25rem;
+}
+
+.site-main .comment-navigation .nav-next,
+.site-main .posts-navigation .nav-next,
+.site-main .post-navigation .nav-next {
+  text-align: left;
+}
+.site-main .comment-navigation .nav-previous span.material-icons,
+.site-main .comment-navigation .nav-next span.material-icons,
+.site-main .posts-navigation .nav-previous span.material-icons,
+.site-main .posts-navigation .nav-next span.material-icons,
+.site-main .post-navigation .nav-previous span.material-icons,
+.site-main .post-navigation .nav-next span.material-icons {
+  -webkit-transform: rotate(180deg) translateX(10px);
+      -ms-transform: rotate(180deg) translateX(10px);
+          transform: rotate(180deg) translateX(10px);
+}
+.site-main .comment-navigation .nav-previous span.material-icons,
+.site-main .posts-navigation .nav-previous span.material-icons,
+.site-main .post-navigation .nav-previous span.material-icons {
+  -webkit-transform: rotate(180deg) translateX(-10px);
+      -ms-transform: rotate(180deg) translateX(-10px);
+          transform: rotate(180deg) translateX(-10px);
+}
+
+.comment-author.vcard img {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.comment-list .children li article {
+  padding-left: 0;
+  padding-right: 4.6875rem;
+}
+
+.comment-content {
+  padding-left: 0;
+  padding-right: 87px;
+}
+
+.reply {
+  right: auto;
+  left: 40px;
+}
+
+.site-footer__menu {
+  text-align: left;
+}
+
+/*
+  WooCommerce
+ */
+.beetan-shop-toolbar .beetan-shop-layout {
+  text-align: left !important;
+}
+
+.woocommerce.single-product ul.products li.product,
+.woocommerce-page.single-product ul.products li.product {
+  margin-right: 0 !important;
+  margin-left: 3px !important;
+}
+.woocommerce.single-product ul.products li.product:last-child,
+.woocommerce-page.single-product ul.products li.product:last-child {
+  margin-left: 0 !important;
+}
+.woocommerce ul.products.list li.product .beetan-shop-thumbnail-wrap,
+.woocommerce-page ul.products.list li.product .beetan-shop-thumbnail-wrap {
+  margin-right: 0 !important;
+  margin-left: 20px;
+}
+.woocommerce ul.products.list li.product .beetan-shop-summary-wrap,
+.woocommerce-page ul.products.list li.product .beetan-shop-summary-wrap {
+  text-align: right;
+}
+
+.single-product div.product .woocommerce-tabs ul.tabs {
+  text-align: right;
+}
+.single-product div.product .woocommerce-tabs ul.tabs li {
+  margin: 0 0 0 20px !important;
+}
+.single-product div.product .woocommerce-tabs .shop_attributes td {
+  border-right: 0 !important;
+}
+.single-product div.product .woocommerce-tabs .shop_attributes th {
+  border-right: 1px solid #cbcbcb !important;
+}
+
+.woocommerce #respond input#submit.added::after,
+.woocommerce a.button.added::after,
+.woocommerce button.button.added::after,
+.woocommerce input.button.added::after {
+  margin-right: 0 !important;
+  margin-left: 0.53em !important;
+}
+.woocommerce a.added_to_cart,
+.woocommerce button.added_to_cart,
+.woocommerce input.added_to_cart {
+  margin-left: 0 !important;
+  margin-right: 10px;
+}
+.woocommerce .message,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-message {
+  padding: 1.6em 4.5em 1.6em 2em !important;
+}
+.woocommerce .message a.button::after,
+.woocommerce .woocommerce-info a.button::after,
+.woocommerce .woocommerce-error a.button::after,
+.woocommerce .woocommerce-message a.button::after {
+  right: 0.5em;
+}
+.woocommerce .woocommerce-cart-form button.button,
+.woocommerce .woocommerce-cart-form button .button:disabled,
+.woocommerce .woocommerce-cart-form button .button:disabled[disabled] {
+  float: left;
+}
+
+.woocommerce-message {
+  border-left: 0 !important;
+  border-right: 3px solid #62ff6a;
+}
+
+.woocommerce-error {
+  border-left: 0 !important;
+  border-right: 3px solid #f98585;
+}
+
+.woocommerce-info {
+  border-left: 0 !important;
+  border-right: 3px solid #333333;
+}
+
+@media screen and (min-width: 48em) {
+  table.shop_table_responsive tr th,
+table.shop_table_responsive tr td {
+    text-align: right !important;
+  }
+}

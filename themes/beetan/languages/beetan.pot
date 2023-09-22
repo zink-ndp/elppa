@@ -1,0 +1,1679 @@
+# Copyright (C) 2023 Beetan
+# This file is distributed under the same license as the Beetan package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Beetan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: StorePress\n"
+"POT-Creation-Date: 2023-05-11 08:42+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../404.php:20
+msgid "404!"
+msgstr ""
+
+#: ../404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:25
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. translators: %s: Comment count number.
+#: ../comments.php:38
+msgctxt "Comments title"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:34
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:60
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:76
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../functions.php:89
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:90
+msgid "Top Bar Menu"
+msgstr ""
+
+#: ../functions.php:91
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:132
+msgid "Sidebar"
+msgstr ""
+
+#. translators: widget description
+#: ../functions.php:135
+msgid "Add widgets here to show in site sidebar. Make sure you have enabled Sidebar layout by going to <a href=\"%1$s\"><strong>Appearance / Customizer / Sidebar Options.</strong></a>"
+msgstr ""
+
+#: ../functions.php:145
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../functions.php:147
+msgid "Add widgets here to show in site footer."
+msgstr ""
+
+#: ../inc/class-beetan-metaboxes.php:29
+msgid "Post Options"
+msgstr ""
+
+#: ../inc/class-beetan-metaboxes.php:33, ../inc/customizer/options/page.php:5
+msgid "Page Options"
+msgstr ""
+
+#: ../inc/class-beetan-metaboxes.php:75
+msgid "Hide %s title"
+msgstr ""
+
+#: ../inc/extra-functions.php:124
+msgid "Proceed to checkout"
+msgstr ""
+
+#: ../inc/extra-functions.php:128
+msgid "Place Order"
+msgstr ""
+
+#: ../inc/extra-functions.php:134
+msgid "We accept: "
+msgstr ""
+
+#. translators: %s: StorePress.
+#: ../inc/extra-functions.php:153, ../template-parts/footer/footer-copyright.php:13
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr ""
+
+#: ../inc/template-functions.php:139
+msgid "..."
+msgstr ""
+
+#: ../inc/template-functions.php:168
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/template-functions.php:184
+msgid "This content is password protected. Please enter a password to view."
+msgstr ""
+
+#: ../inc/template-functions.php:184
+msgctxt "Post password form"
+msgid "Password"
+msgstr ""
+
+#: ../inc/template-functions.php:184
+msgctxt "Post password form"
+msgid "Submit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:18
+msgid ",&nbsp;"
+msgstr ""
+
+#. translators: %s: Updated date text
+#: ../inc/template-tags.php:36
+msgid "(Updated %4$s)"
+msgstr ""
+
+#. translators: %s: post author.
+#: ../inc/template-tags.php:60
+msgctxt "post author"
+msgid "%s "
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: ../inc/template-tags.php:182
+msgid "<span class=\"material-icons\">edit</span> Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:328
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:329
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:331
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:333
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:334
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:341
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:347
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:353
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:359
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:365
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:386
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:387, ../inc/required-plugins/class-tgm-plugin-activation.php:828, ../inc/required-plugins/class-tgm-plugin-activation.php:2534, ../inc/required-plugins/class-tgm-plugin-activation.php:3581
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:388, ../inc/required-plugins/class-tgm-plugin-activation.php:3160
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:389, ../inc/required-plugins/class-tgm-plugin-activation.php:2953
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:391
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:393
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:395
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:396
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:397
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:398
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:523
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:524
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:938, ../inc/required-plugins/class-tgm-plugin-activation.php:935
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:1122, ../inc/required-plugins/class-tgm-plugin-activation.php:2949
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:1983
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2274
+msgid "Required"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2277
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2293
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2296
+msgid "External Source"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2299
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2316
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2322
+msgid "Active"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2320
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2334
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2331
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2328
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2343
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2389
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2393
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2397
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2401
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2483
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2491
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2499
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2511
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2534
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2548
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2549
+msgid "Source"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2550
+msgid "Type"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2554
+msgid "Version"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2555
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2609
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2615
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2604
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2685
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2718
+msgid "Install"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2724
+msgid "Update"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2727
+msgid "Activate"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2760
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2758
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2803
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2801
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:2935
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3159
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3502
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3504
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3516
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3518
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3518, ../inc/required-plugins/class-tgm-plugin-activation.php:3510
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3518, ../inc/required-plugins/class-tgm-plugin-activation.php:3510
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3519
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3521
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3508
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3510
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3511
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3513
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/required-plugins/class-tgm-plugin-activation.php:3499
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/required-plugins/required-plugins.php:19, ../inc/customizer/options/sidebar.php:159
+msgid "WooCommerce"
+msgstr ""
+
+#: ../inc/required-plugins/required-plugins.php:25
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: ../inc/required-plugins/required-plugins.php:31
+msgid "Additional Variation Images Gallery for WooCommerce"
+msgstr ""
+
+#: ../inc/required-plugins/required-plugins.php:50
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../inc/required-plugins/required-plugins.php:51
+msgid "Recommended Plugins"
+msgstr ""
+
+#: ../inc/required-plugins/required-plugins.php:52
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:140
+msgid "Filter"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:249, ../inc/woocommerce/woocommerce-functions.php:257, ../inc/customizer/options/woocommerce.php:222
+msgid "Load More"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:250
+msgid "Loading ..."
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:583
+msgid "Shop Sidebar"
+msgstr ""
+
+#. translators: widget description
+#: ../inc/woocommerce/class-beetan-woocommerce.php:586
+msgid "Add widgets here to show in single product page sidebar. Make sure you have enabled Sidebar layout by going to <a href=\"%1$s\"><strong>Appearance / Customizer / Sidebar Options.</strong></a>"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:595
+msgid "Single Product Sidebar"
+msgstr ""
+
+#. translators: widget description
+#: ../inc/woocommerce/class-beetan-woocommerce.php:598
+msgid "Add widgets here to show in shop page sidebar. Make sure you have enabled Sidebar layout by going to <a href=\"%1$s\"><strong>Appearance / Customizer / Sidebar Options.</strong></a>"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:654
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:715
+msgid "You Have Now FREE Shipping! &#x1F389;"
+msgstr ""
+
+#: ../inc/woocommerce/class-beetan-woocommerce.php:713
+msgid "You're %s  Away From FREE Shipping!"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:11, ../inc/woocommerce/woocommerce-functions.php:40, ../inc/woocommerce/woocommerce-functions.php:63
+msgid "This function should not be called before woocommerce_init."
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:104
+msgid "Left (%s99.99)"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:106
+msgid "Right (99.99%s)"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:108
+msgid "Left with space (%s 99.99)"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:110
+msgid "Right with space (99.99 %s)"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:226
+msgid "No product found."
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:369
+msgid "% OFF"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:430
+msgid "View Details"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:509
+msgid "Billing & Shipping"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:513
+msgid "Order"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:517
+msgid "Payment"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:561
+msgid "Back to Cart"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:563, ../inc/woocommerce/woocommerce-functions.php:586
+msgid "Next Step"
+msgstr ""
+
+#: ../inc/woocommerce/woocommerce-functions.php:584, ../inc/woocommerce/woocommerce-functions.php:607
+msgid "Previous Step"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:58
+msgid "row"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:59
+msgid "Add new"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:60
+msgid "Select a Page"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:61
+msgid "Limit: %s rows"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:62
+msgid "Hex Value"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:63
+msgid "No Image Selected"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:64
+msgid "Remove"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:65
+msgid "Add Image"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:66
+msgid "Change Image"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:67
+msgid "No File Selected"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:68
+msgid "Add File"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-repeatable-control.php:69
+msgid "Change File"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-typography.php:107
+msgid "%s Family"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-typography.php:109
+msgid "Font Family"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-typography.php:123
+msgid "%s Style"
+msgstr ""
+
+#: ../inc/customizer/controls/class-beetan-customize-typography.php:125
+msgid "Font Style"
+msgstr ""
+
+#: ../inc/customizer/options/blog-single.php:6, ../inc/customizer/options/sidebar.php:93
+msgid "Single Post"
+msgstr ""
+
+#: ../inc/customizer/options/blog-single.php:23
+msgid "Hide Single Post Title"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:10
+msgid "Blog Options"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:17
+msgid "Blog Archive"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:35
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:36
+msgid "Choose a layout for the blog posts."
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:40, ../inc/customizer/options/layout.php:155, ../inc/customizer/options/layout.php:181, ../inc/customizer/options/layout.php:207, ../inc/customizer/options/layout.php:234, ../inc/customizer/options/layout.php:260
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:44
+msgid "List"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:49
+msgid "Grid"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:53
+msgid "Masonry"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:73
+msgid "Columns"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:77
+msgid "2"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:78
+msgid "3"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:79
+msgid "4"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:106
+msgid "Archive Post Content"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:108
+msgid "Show full content"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:109
+msgid "Show summary"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:132
+msgid "Summary Length"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:133
+msgid "Summary length as words count."
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:162
+msgid "Enable Read More"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:163
+msgid "Show READ MORE button."
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:189
+msgid "Gap Between Posts"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:214
+msgid "Gap Inner Post"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:239
+msgid "Post Background Color"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:258
+msgid "Featured Image Display Style"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:259
+msgid "Cover style is only for BOX container layout."
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:261
+msgid "Cover"
+msgstr ""
+
+#: ../inc/customizer/options/blog.php:262
+msgid "Contain"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:8
+msgid "Color Options"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:26
+msgid "Primary Color"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:45
+msgid "Site Background Color"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:64
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:83
+msgid "Heading Color"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:102
+msgid "Sub Heading Color"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:121
+msgid "Link Color"
+msgstr ""
+
+#: ../inc/customizer/options/color.php:140
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:5
+msgid "Footer Options"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:22
+msgid "Copyright Text"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:31
+msgid "Back to Top Button"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:46
+msgid "Enable Back to Top Button"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:65
+msgid "Choose Icon"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:69
+msgid "Icon 1"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:73, ../inc/customizer/options/footer.php:77, ../inc/customizer/options/footer.php:81, ../inc/customizer/options/footer.php:85, ../inc/customizer/options/footer.php:89, ../inc/customizer/options/footer.php:93
+msgid "Icon 2"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:114
+msgid "Button Background Color"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:133
+msgid "Button Icon Color"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:152
+msgid "Icon Size"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:177
+msgid "Button Width"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:202
+msgid "Button Height"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:227
+msgid "Button Radius"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:251
+msgid "Button Position"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:255
+msgid "Left"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:256
+msgid "Right"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:275
+msgid "Button Bottom Offset"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:300
+msgid "Button Left/Right Offset"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:325
+msgid "Button Visibility"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:329, ../inc/customizer/options/woocommerce.php:442
+msgid "Show on All Devices"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:330, ../inc/customizer/options/woocommerce.php:443
+msgid "Show on Desktop Only"
+msgstr ""
+
+#: ../inc/customizer/options/footer.php:331, ../inc/customizer/options/woocommerce.php:444
+msgid "Show on Mobile/Tablet Only"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:16
+msgid "Container Type"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:20
+msgid "Contained"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:21
+msgid "Full-width"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:30
+msgid "Header Options"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:45
+msgid "Sticky Header"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:61
+msgid "Float Header"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:80
+msgid "Header Background Color"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:99
+msgid "Header Box Shadow Color"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:117
+msgid "Header Styles"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:122
+msgid "Header Style 1"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:126
+msgid "Header Style 2"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:130
+msgid "Header Style 3"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:134
+msgid "Header Style 4"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:154
+msgid "Enable Search"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:173, ../inc/customizer/options/woocommerce.php:892
+msgid "Enable Mini Cart"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:191
+msgid "Enable My Account"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:200
+msgid "Header Top"
+msgstr ""
+
+#: ../inc/customizer/options/header.php:216
+msgid "Header Top Background Color"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:5
+msgid "Layout Options"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:33
+msgid "Site Container Width"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:58
+msgid "Box Layout Inner Gap"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:95
+msgid "Box Layout Background Color"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:126
+msgid "Default Layout"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:130, ../inc/customizer/options/layout.php:156, ../inc/customizer/options/layout.php:182, ../inc/customizer/options/layout.php:208, ../inc/customizer/options/layout.php:235, ../inc/customizer/options/layout.php:261
+msgid "Box"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:131, ../inc/customizer/options/layout.php:157, ../inc/customizer/options/layout.php:183, ../inc/customizer/options/layout.php:209, ../inc/customizer/options/layout.php:236, ../inc/customizer/options/layout.php:262
+msgid "Full Width - Contained"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:132, ../inc/customizer/options/layout.php:158, ../inc/customizer/options/layout.php:184, ../inc/customizer/options/layout.php:210, ../inc/customizer/options/layout.php:237, ../inc/customizer/options/layout.php:263
+msgid "Full Width - Stretched"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:151
+msgid "Page Layout"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:177
+msgid "Single Post Layout"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:203
+msgid "Blog Archive Layout"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:230
+msgid "Shop Layout"
+msgstr ""
+
+#: ../inc/customizer/options/layout.php:256
+msgid "Single Product Layout"
+msgstr ""
+
+#: ../inc/customizer/options/page.php:22
+msgid "Hide Page Title"
+msgstr ""
+
+#: ../inc/customizer/options/page.php:40
+msgid "Page Title Align Center"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:8
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:36
+msgid "Sidebar Width"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:60
+msgid "Page"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:65, ../inc/customizer/options/sidebar.php:98, ../inc/customizer/options/sidebar.php:131, ../inc/customizer/options/sidebar.php:164, ../inc/customizer/options/sidebar.php:197
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:69, ../inc/customizer/options/sidebar.php:102, ../inc/customizer/options/sidebar.php:135, ../inc/customizer/options/sidebar.php:168, ../inc/customizer/options/sidebar.php:201
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:73, ../inc/customizer/options/sidebar.php:106, ../inc/customizer/options/sidebar.php:139, ../inc/customizer/options/sidebar.php:172, ../inc/customizer/options/sidebar.php:205
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:126
+msgid "Archives"
+msgstr ""
+
+#: ../inc/customizer/options/sidebar.php:192, ../inc/customizer/options/woocommerce.php:265
+msgid "Single Product"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:4, ../inc/customizer/options/typography.php:22, ../inc/customizer/options/typography.php:31
+msgid "Body Font"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:12
+msgid "Typography Options"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:39
+msgid "Base"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:55
+msgid "Base Font Size"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:80
+msgid "Base Font Weight"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:84, ../inc/customizer/options/typography.php:256, ../inc/customizer/options/typography.php:396, ../inc/customizer/options/typography.php:536, ../inc/customizer/options/typography.php:676, ../inc/customizer/options/typography.php:816, ../inc/customizer/options/typography.php:956
+msgid "Light 300"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:85, ../inc/customizer/options/typography.php:257, ../inc/customizer/options/typography.php:397, ../inc/customizer/options/typography.php:537, ../inc/customizer/options/typography.php:677, ../inc/customizer/options/typography.php:817, ../inc/customizer/options/typography.php:957
+msgid "Regular 400"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:86, ../inc/customizer/options/typography.php:258, ../inc/customizer/options/typography.php:398, ../inc/customizer/options/typography.php:538, ../inc/customizer/options/typography.php:678, ../inc/customizer/options/typography.php:818, ../inc/customizer/options/typography.php:958
+msgid "Medium 500"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:87, ../inc/customizer/options/typography.php:259, ../inc/customizer/options/typography.php:399, ../inc/customizer/options/typography.php:539, ../inc/customizer/options/typography.php:679, ../inc/customizer/options/typography.php:819, ../inc/customizer/options/typography.php:959
+msgid "Semi Bold 600"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:88, ../inc/customizer/options/typography.php:260, ../inc/customizer/options/typography.php:400, ../inc/customizer/options/typography.php:540, ../inc/customizer/options/typography.php:680, ../inc/customizer/options/typography.php:820, ../inc/customizer/options/typography.php:960
+msgid "Bold 700"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:89, ../inc/customizer/options/typography.php:261, ../inc/customizer/options/typography.php:401, ../inc/customizer/options/typography.php:541, ../inc/customizer/options/typography.php:681, ../inc/customizer/options/typography.php:821, ../inc/customizer/options/typography.php:961
+msgid "Extra Bold 800"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:90, ../inc/customizer/options/typography.php:262, ../inc/customizer/options/typography.php:402, ../inc/customizer/options/typography.php:542, ../inc/customizer/options/typography.php:682, ../inc/customizer/options/typography.php:822, ../inc/customizer/options/typography.php:962
+msgid "Black 900"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:111
+msgid "Base Font Line Height"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:125
+msgid "Paragraph"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:143, ../inc/customizer/options/typography.php:310, ../inc/customizer/options/typography.php:450, ../inc/customizer/options/typography.php:590, ../inc/customizer/options/typography.php:730, ../inc/customizer/options/typography.php:870, ../inc/customizer/options/typography.php:1010
+msgid "Margin Top"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:170, ../inc/customizer/options/typography.php:337, ../inc/customizer/options/typography.php:477, ../inc/customizer/options/typography.php:617, ../inc/customizer/options/typography.php:757, ../inc/customizer/options/typography.php:897, ../inc/customizer/options/typography.php:1037
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:188, ../inc/customizer/options/typography.php:194, ../inc/customizer/options/typography.php:203
+msgid "Heading Font"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:211
+msgid "H1"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:227, ../inc/customizer/options/typography.php:367, ../inc/customizer/options/typography.php:507, ../inc/customizer/options/typography.php:647, ../inc/customizer/options/typography.php:787, ../inc/customizer/options/typography.php:927
+msgid "Font Size"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:252, ../inc/customizer/options/typography.php:392, ../inc/customizer/options/typography.php:532, ../inc/customizer/options/typography.php:672, ../inc/customizer/options/typography.php:812, ../inc/customizer/options/typography.php:952
+msgid "Font Weight"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:283, ../inc/customizer/options/typography.php:423, ../inc/customizer/options/typography.php:563, ../inc/customizer/options/typography.php:703, ../inc/customizer/options/typography.php:843, ../inc/customizer/options/typography.php:983
+msgid "Line Height"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:351
+msgid "H2"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:491
+msgid "H3"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:631
+msgid "H4"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:771
+msgid "H5"
+msgstr ""
+
+#: ../inc/customizer/options/typography.php:911
+msgid "H6"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:8, ../inc/customizer/options/woocommerce.php:82, ../inc/customizer/options/woocommerce.php:273
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:16
+msgid "Quantity Input"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:31
+msgid "Enable Quantity +/- button"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:50
+msgid "Quantity Style"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:55
+msgid "Style 1"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:59
+msgid "Style 2"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:74
+msgid "Shop Archive"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:97
+msgid "Enable Shop Title"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:116
+msgid "Enable Shop Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:135
+msgid "Enable Shop Result Count"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:154
+msgid "Enable Shop Product Sorting"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:173
+msgid "Enable Shop Product (List/Grid) View"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:192
+msgid "Enable Shop Sidebar as Offcanvas Filter"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:201
+msgid "Product Pagination"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:217
+msgid "Shop Pagination Type"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:221
+msgid "Default Pagination"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:223
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:246
+msgid "Gap Between Products"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:288
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:307
+msgid "Enable Sticky Product Summary"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:326
+msgid "Enable Single AJAX Add to Cart"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:345
+msgid "Enable Upsells"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:364
+msgid "Enable Related Products"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:373
+msgid "Sticky Add to Cart"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:388
+msgid "Enable Sticky Add to Cart"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:407
+msgid "Sticky Add to Cart Position"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:411
+msgid "Top"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:412
+msgid "Bottom"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:438
+msgid "Sticky Add to Cart Visibility"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:473
+msgid "Checkout Layout"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:478, ../inc/customizer/options/woocommerce.php:676
+msgid "layout 1"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:482, ../inc/customizer/options/woocommerce.php:680
+msgid "layout 2"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:486
+msgid "Multistep Checkout"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:507
+msgid "Sticky Order Summary"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:534
+msgid "Enable Apply Coupon Filed"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:554
+msgid "Enable Order Notes Filed"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:574
+msgid "Change \"Place Order\" Button Text"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:594
+msgid "\"Place Order\" Button Text"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:619
+msgid "Enable Price on \"Place Order\" Button"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:639
+msgid "Enable Distraction Free Checkout"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:653, ../woocommerce/cart/mini-cart.php:27
+msgid "Cart"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:671
+msgid "Cart Layout"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:700
+msgid "Sticky Cart Totals"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:726
+msgid "Cart Auto Update on Quantity Change"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:745
+msgid "Change \"Proceed to Checkout\" Button Text"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:765
+msgid "\"Proceed to Checkout\" Button Text"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:789
+msgid "Hide Coupon Form"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:808
+msgid "Enable Cross-Sells"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:827
+msgid "Cross-Sells Products Limit"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:857
+msgid "Cross-Sells Columns"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:878
+msgid "Mini Cart"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:912
+msgid "Mini Cart Layout"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:917
+msgid "Dropdown"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:921
+msgid "Floating"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:942, ../inc/customizer/options/woocommerce.php:979
+msgid "Currency Switcher"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:960
+msgid "Enable Currency Switcher"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:980
+msgid "Add new currency."
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:982, ../inc/customizer/options/woocommerce.php:988
+msgid "Currency"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:983
+msgid "Add New"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:994
+msgid "Currency Rate"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:995
+msgid "Currency Conversion fixed rate based on default currency. 1 For default currency."
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:999
+msgid "Currency Position"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1005
+msgid "Thousand Separator"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1010
+msgid "Decimal Separator"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1015
+msgid "Number of Decimals"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1030, ../inc/customizer/options/woocommerce.php:1068
+msgid "Payment Icons"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1050
+msgid "Payment Icons Area Heading"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1088
+msgid "Payment Icons Placement"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1089
+msgid "Select where you want to show icons."
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1092
+msgid "Site Footer"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1093
+msgid "Cart Page Sidebar"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1094
+msgid "Single Product below SKU & Category"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1106
+msgid "Search"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1125
+msgid "Search Post Type"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1129
+msgid "Blog Post"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1130
+msgid "Product"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1148
+msgid "Enable Ajax Search"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1174
+msgid "Search Result Limit"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1205
+msgid "Search Result Order By"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1209
+msgid "None"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1210
+msgid "Product Name"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1211
+msgid "Product Price"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1212
+msgid "Published Date"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1213
+msgid "Modified Date"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1214
+msgid "Popularity"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1215
+msgid "Randomly"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1241
+msgid "Search Result Order"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1245
+msgid "Ascending Order"
+msgstr ""
+
+#: ../inc/customizer/options/woocommerce.php:1246
+msgid "Descending Order"
+msgstr ""
+
+#. translators: %s: search query.
+#: ../search.php:23
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:9
+msgctxt "Search label"
+msgid "Search for:"
+msgstr ""
+
+#: ../searchform.php:11
+msgctxt "Search placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../searchform.php:13
+msgctxt "Search title"
+msgid "Search for:"
+msgstr ""
+
+#: ../sidebar.php:29
+msgid "Sidebar Widget"
+msgstr ""
+
+#. translators: 1: admin URL
+#: ../sidebar.php:37
+msgid "There has not sidebar to show, add widgets by going to <a href=\"%1$s\"><strong>Appearance / Widgets </strong></a> and dragging widgets into widget area."
+msgstr ""
+
+#: ../single.php:35
+msgid "Previous Post"
+msgstr ""
+
+#: ../single.php:36
+msgid "Next Post"
+msgstr ""
+
+#: ../template-parts/post-entry-footer.php:19
+msgid "Read More"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: ../template-parts/content/content-archive.php:44, ../template-parts/content/content-single.php:32, ../template-parts/content/content.php:36
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../template-parts/content/content-archive.php:57, ../template-parts/content/content-page.php:32, ../template-parts/content/content-single.php:45, ../template-parts/content/content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content/content-none.php:41
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../template-parts/content/content-none.php:35
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../template-parts/content/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: StorePress.
+#: ../template-parts/footer/footer-copyright.php:17
+msgid "Theme Design by %s."
+msgstr ""
+
+#: ../template-parts/footer/footer-copyright.php:17
+msgid "https://storepress.com/"
+msgstr ""
+
+#: ../template-parts/header/header-nav.php:2
+msgid "Site Navigation"
+msgstr ""
+
+#: ../templates/template-fullwidth-container.php:5
+msgid "Full Width Template - Contained"
+msgstr ""
+
+#: ../templates/template-fullwidth.php:5
+msgid "Full Width Template - Stretched"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:149
+msgid "No products in the cart."
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:102
+msgid "Remove this item"
+msgstr ""

@@ -1,0 +1,27 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+.customize-control-unit {
+  margin-top: 10px;
+}
+
+.customize-control-unit-input-wrapper {
+  display: block;
+}
+.customize-control-unit-input-wrapper .customize-control-title {
+  float: left;
+  margin-top: 2px;
+  max-width: calc(100% - 120px);
+}
+.customize-control-unit-input-wrapper .customize-control-unit-inputs {
+  float: right;
+}
+.customize-control-unit-input-wrapper .customize-control-unit-inputs input, .customize-control-unit-input-wrapper .customize-control-unit-inputs select {
+  width: 55px;
+  display: inline-block;
+  vertical-align: baseline;
+}

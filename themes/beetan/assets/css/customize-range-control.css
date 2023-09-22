@@ -1,0 +1,109 @@
+/*!
+ * Beetan Theme
+ *
+ * Author: StorePress ( StorePressHQ@gmail.com )
+ * Date: 5/11/2023, 2:42:41 PM
+ * Released under the GPLv3 license.
+ */
+.customize-control-range {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.customize-control-range span.unit {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #0284c7;
+}
+.customize-control-range-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: default;
+}
+.customize-control-range-wrap input[type=range] {
+  margin-right: 10px;
+  -webkit-appearance: none;
+  height: 4px;
+  padding: 0;
+  outline: none;
+  border-radius: 3px;
+  background: #d7dcdf;
+}
+.customize-control-range-wrap input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: #0284c7;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.customize-control-range-wrap input[type=range]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  background-color: #0284c7;
+  border-radius: 50%;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+.customize-control-range-wrap input[type=range]:focus::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0284c7;
+          box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0284c7;
+}
+.customize-control-range-value {
+  min-width: 50px;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+.customize-control-range-value::-webkit-outer-spin-button, .customize-control-range-value::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.customize-control-range-value[type=number] {
+  -moz-appearance: textfield;
+}
+.customize-control-range-value-wrap {
+  max-width: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.customize-control-range-value-wrap .suffix,
+.customize-control-range-value-wrap .prefix {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #8c8f94;
+  border-radius: 0 3px 3px 0;
+  cursor: default;
+  margin-left: -3px;
+}
+.customize-control-range-value-wrap .prefix {
+  border-radius: 3px 0 0 3px;
+  margin-left: 0;
+  margin-right: -3px;
+  z-index: 1;
+}
