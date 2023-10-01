@@ -1,0 +1,46 @@
+2023-10-01T09:31:41+00:00 CRITICAL Uncaught RuntimeException: Không thể yêu cầu các hành động. Lỗi cơ sở dữ liệu. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php:696
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php(588): ActionScheduler_wpPostStore->claim_actions('b41084ec84cd817...', 25, NULL, Array, '')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(212): ActionScheduler_wpPostStore->stake_claim(25, NULL, Array, '')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim(25)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): ActionScheduler_QueueRunner->run('WP Cron')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_wpPostStore.php on line 696
+
+2023-10-01T09:31:41+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\functions.php:1245
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\functions.php(122): wpb_randmom_message_handle(false)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): wp_chatbot_load_footer_html('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3069): do_action('wp_footer')
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\beetan\footer.php(38): wp_footer()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\themes\beetan\404.php(35): get_footer()
+#10 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\index.php(19): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\functions.php on line 1245
+
+2023-10-01T09:31:44+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Lỗi lưu hành động: Table 'qlbandongho.wp_actionscheduler_actions' doesn't exist in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(327): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(175): ActionScheduler_ActionFactory->create(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
