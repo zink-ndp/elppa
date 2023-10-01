@@ -1,0 +1,27 @@
+2023-10-01T07:03:03+00:00 CRITICAL Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\includes\class-wpbot-gc-download.php:93
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WPBotGCDownload->extractgc('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_qcld_wp...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\includes\class-wpbot-gc-download.php on line 93
+
+2023-10-01T07:03:04+00:00 CRITICAL Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\includes\class-wpbot-gc-download.php:93
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WPBotGCDownload->extractgc('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_qcld_wp...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\includes\class-wpbot-gc-download.php on line 93
+
+2023-10-01T07:03:06+00:00 CRITICAL Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\includes\class-wpbot-gc-download.php:93
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WPBotGCDownload->extractgc('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_qcld_wp...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\includes\class-wpbot-gc-download.php on line 93
+

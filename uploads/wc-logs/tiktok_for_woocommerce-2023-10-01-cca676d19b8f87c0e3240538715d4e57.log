@@ -1,0 +1,60 @@
+2023-10-01T06:31:49+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_65191255d703ahttplocalhostwordpresswp-admin","smb_name":"WOO_COMMERCE","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+ ajax: no
+2023-10-01T06:31:50+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: TLB
+Content-Type: application/json
+X-Tt-Logid: 20231001063123456A6E532E7A7F1B097B,20231001063123456A6E532E7A7F1B097B
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01825fdaa55ba604dc4ee6d6161ece5be682cfed7c5242dee2dc38dda363de93171a5b820b96db07a4dafd51e45a6404783436a6e484dae2418ad3aa557a12ba062ed452aebd3a1fc385b2a8c4ab331d37ca9933aa5f0da0d3ded77d327cffa077c139d5ab93587b8eb8d7c0cb2d1bc604
+Content-Encoding: gzip
+Content-Length: 208
+X-Origin-Response-Time: 116,23.44.5.110
+X-Akamai-Request-ID: aa9e839.227afff9
+Date: Sun, 01 Oct 2023 06:31:24 GMT
+X-Cache: TCP_MISS from a27-67-51-28.deploy.akamaitechnologies.com (AkamaiGHost/11.2.5.1-51406771) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-44-5-110.deploy.akamaitechnologies.com (AkamaiGHost/11.2.5.1-51406771) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=51, origin; dur=116
+Server-Timing: inner; dur=112
+X-Parent-Response-Time: 164,27.67.51.28
+
+{"code":0,"msg":"ok","data":{"app_secret":"bb7eb0943f785031b3701bacdaf428352d94b45f","app_id":"7284873924582572033","redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/","external_data_key":"8a19467a-2632-4dd0-9d76-5342de2cc041"}}
+
+2023-10-01T06:31:50+00:00 DEBUG Tt4b_Menu_Class::tt4b_admin_menu_main: external_data: eyJleHRlcm5hbF9idXNpbmVzc19pZCI6InR0NGJfd29vY29tbWVyY2VfNjUxOTEyNTVkNzAzYSIsImJ1c2luZXNzX3BsYXRmb3JtIjoiV09PX0NPTU1FUkNFIiwibG9jYWxlIjoidmkiLCJ2ZXJzaW9uIjoiMS41IiwidGltZXN0YW1wIjoiMTY5NjE0MTkxMDAwMCIsInRpbWV6b25lIjoiR01UKzAwOjAwIiwiY291bnRyeV9yZWdpb24iOiJWTiIsImVtYWlsIjoiZHV5YjIwMTE5NjBAc3R1ZGVudC5jdHUuZWR1LnZuIiwiaW5kdXN0cnlfaWQiOiIyOTE0MDgiLCJzdG9yZV9uYW1lIjoiRUxQUEEiLCJjdXJyZW5jeSI6IlZORCIsIndlYnNpdGVfdXJsIjoiaHR0cDovL2xvY2FsaG9zdC93b3JkcHJlc3MiLCJkb21haW4iOiJodHRwOi8vbG9jYWxob3N0L3dvcmRwcmVzcyIsImFwcF9pZCI6IjcyODQ4NzM5MjQ1ODI1NzIwMzMiLCJyZWRpcmVjdF91cmkiOiJodHRwOi8vbG9jYWxob3N0L3dvcmRwcmVzcy93cC1hZG1pbi8iLCJobWFjIjoiOTFiNGU0MmU3MzhkYWM2NmQyMGFlZGMzNjljMjAzZGIwMGVhZGVjMmNmZjRmYjBiODFhNzY1NDNlZGIzNDMyMCIsImNsb3NlX21ldGhvZCI6InJlZGlyZWN0X2luc2lkZV90aWt0b2siLCJpc19lbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNfdmVyaWZpZWQiOnRydWUsIm5ldF9nbXYiOlt7ImludGVydmFsIjoiTElGRVRJTUUiLCJtaW4iOjAsIm1heCI6MCwidW5pdCI6IkNVUlJFTkNZIn1dLCJuZXRfb3JkZXJfY291bnQiOlt7ImludGVydmFsIjoiTElGRVRJTUUiLCJtaW4iOjAsIm1heCI6MCwidW5pdCI6IkNPVU5UIn1dLCJ0ZW51cmUiOnsibWluIjowLCJ1bml0IjoiREFZUyJ9LCJleHRyYV9kYXRhIjoie1widmVyc2lvblwiOlwiMS4xLjZcIn0iLCJhZGRyZXNzXzEiOiIiLCJhZGRyZXNzXzIiOiIiLCJjaXR5IjoiIiwic3RhdGUiOiIiLCJ6aXBfY29kZSI6IiJ9
+2023-10-01T06:31:51+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_65191255d703a","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":10,"max":10,"unit":"DAYS"},"extra_data":"{\"version\":\"1.1.6\"}"}
+ ajax: yes
+2023-10-01T06:31:51+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: TLB
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 20231001063125CC113EFB20155C119601
+x-tt-trace-host: 01825fdaa55ba604dc4ee6d6161ece5be6bc0acf2d8219b125a143d2b4437c81f3e96ff96c00861170da6c5eaad5c450de118b93466e7aa8e8a47054e0a7b88df69c289874fb180d14df1d29d8ff79a0f09407a278ca3b0eb7e46540fa9ff0e5b19fe34892303bf250f2f658db23ebd8fa
+X-Origin-Response-Time: 21,23.211.140.141
+X-Akamai-Request-ID: f43455b.31d2e5f4
+Expires: Sun, 01 Oct 2023 06:31:26 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 01 Oct 2023 06:31:26 GMT
+X-Cache: TCP_MISS from a23-200-74-28.deploy.akamaitechnologies.com (AkamaiGHost/11.2.5.1-51461813) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-211-140-141.deploy.akamaitechnologies.com (AkamaiGHost/11.2.5.2-51612204) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=44, origin; dur=21
+Server-Timing: inner; dur=2
+X-Parent-Response-Time: 61,23.200.74.28
+
+{"code":40104,"message":"The access_token is empty.","request_id":"20231001063125CC113EFB20155C119601"}
+
+2023-10-01T06:32:54+00:00 DEBUG Tt4b_Menu_Class::tt4b_admin_menu_main: external_data: eyJleHRlcm5hbF9idXNpbmVzc19pZCI6InR0NGJfd29vY29tbWVyY2VfNjUxOTEyNTVkNzAzYSIsImJ1c2luZXNzX3BsYXRmb3JtIjoiV09PX0NPTU1FUkNFIiwibG9jYWxlIjoidmkiLCJ2ZXJzaW9uIjoiMS41IiwidGltZXN0YW1wIjoiMTY5NjE0MTk3NDAwMCIsInRpbWV6b25lIjoiR01UKzAwOjAwIiwiY291bnRyeV9yZWdpb24iOiJWTiIsImVtYWlsIjoiZHV5YjIwMTE5NjBAc3R1ZGVudC5jdHUuZWR1LnZuIiwiaW5kdXN0cnlfaWQiOiIyOTE0MDgiLCJzdG9yZV9uYW1lIjoiRUxQUEEiLCJjdXJyZW5jeSI6IlZORCIsIndlYnNpdGVfdXJsIjoiaHR0cDovL2xvY2FsaG9zdC93b3JkcHJlc3MiLCJkb21haW4iOiJodHRwOi8vbG9jYWxob3N0L3dvcmRwcmVzcyIsImFwcF9pZCI6IjcyODQ4NzM5MjQ1ODI1NzIwMzMiLCJyZWRpcmVjdF91cmkiOiJodHRwOi8vbG9jYWxob3N0L3dvcmRwcmVzcy93cC1hZG1pbi8iLCJobWFjIjoiNmM3NWJjNDZiYWE5YWY2ZDE4OWNjZmU0MTNhYjIzMjc0NDlhY2MwMmM4Yjc1NTljZDg0N2JlZGY2ZWM5YjBmMiIsImNsb3NlX21ldGhvZCI6InJlZGlyZWN0X2luc2lkZV90aWt0b2siLCJpc19lbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNfdmVyaWZpZWQiOnRydWUsIm5ldF9nbXYiOlt7ImludGVydmFsIjoiTElGRVRJTUUiLCJtaW4iOjAsIm1heCI6MCwidW5pdCI6IkNVUlJFTkNZIn1dLCJuZXRfb3JkZXJfY291bnQiOlt7ImludGVydmFsIjoiTElGRVRJTUUiLCJtaW4iOjAsIm1heCI6MCwidW5pdCI6IkNPVU5UIn1dLCJ0ZW51cmUiOnsibWluIjoxMCwidW5pdCI6IkRBWVMifSwiZXh0cmFfZGF0YSI6IntcInZlcnNpb25cIjpcIjEuMS42XCJ9IiwiYWRkcmVzc18xIjoiIiwiYWRkcmVzc18yIjoiIiwiY2l0eSI6IiIsInN0YXRlIjoiIiwiemlwX2NvZGUiOiIifQ==
