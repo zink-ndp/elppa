@@ -85,7 +85,6 @@ function wpbo_search_site() {
 			}else{
 				$response['status'] = 'fail';
 			}
-			//var_dump($total_post);wp_die();
 			$response['html'] .= '<p>'.$msg.'</p>';
 			$response['html'] .= $responses;
 			$response['html'] .='</div>';
@@ -173,8 +172,9 @@ function qc_wpbo_search_response(){
 	$response_result = array();
 
 	$status = array('status'=>'fail', 'multiple'=>false);
+	$field = "ID";
 	if(($strid != '') && empty($response_result)){
-		$results = $wpdb->get_results("SELECT * FROM `$table` WHERE `ID` = ".$strid);	
+		$results = $wpdb->get_results($wpdb->prepare("SELECT * FROM %i WHERE %i = %d",$table,$field,$strid));	
 		if(!empty($results)){
 			foreach($results as $result){
 				
@@ -183,8 +183,10 @@ function qc_wpbo_search_response(){
 			}
 		}
 	}
+	$field = "query";
+	$sql_text = $wpdb->prepare("SELECT `id`, `query`, `response` FROM %i WHERE 1 and %i =  %s", $table, $field,$keyword);
+	$results = $wpdb->get_results($sql_text);
 	
-	$results = $wpdb->get_results("SELECT `id`, `query`, `response` FROM `$table` WHERE 1 and `query` = '".$keyword."'");
 	
 	if(!empty($results)){
 		foreach($results as $result){
@@ -193,8 +195,11 @@ function qc_wpbo_search_response(){
 			
 		}
 	}
+
+	$field = "category";
 	if(empty($response_result)){
-		$results = $wpdb->get_results("SELECT `id`, `query`, `response` FROM `$table` WHERE 1 and `category` = '".$keyword."'");
+		$sql = $wpdb->prepare("SELECT `id`, `query`, `response` FROM %i  WHERE 1 and %i = %s", $table,$field, $keyword);
+		$results = $wpdb->get_results($sql );
 		
 		
 		if(!empty($results)){
@@ -231,10 +236,11 @@ function qc_wpbo_search_response(){
 		}
 		$sql = "ALTER TABLE `{$table}` ADD FULLTEXT($qfields);";
 		$wpdb->query( $sql );
-		$sql_text = "SELECT `id`, `query`, `response`, MATCH($qfields) AGAINST('".$keyword."' IN NATURAL LANGUAGE MODE) as score FROM $table WHERE MATCH($qfields) AGAINST('".$keyword."' IN NATURAL LANGUAGE MODE) order by score desc limit 15";
-		$results = $wpdb->get_results($sql_text);
 		
+		$sql_text = $wpdb->prepare("SELECT `id`, `query`, `response`, MATCH($qfields) AGAINST(%s IN NATURAL LANGUAGE MODE) as score FROM %i WHERE MATCH($qfields) AGAINST(%s IN NATURAL LANGUAGE MODE) order by score desc limit 15",$keyword,$table,$keyword);
+		$results = $wpdb->get_results($sql_text);
 		$weight = get_option('qc_bot_str_weight')!=''?get_option('qc_bot_str_weight'):'0.4';
+		
 		if(!empty($results)){
 			foreach($results as $result){
 				if(($result->score) >= ($weight)){
@@ -243,9 +249,11 @@ function qc_wpbo_search_response(){
 			}
 		}
 	}
-
+	$field = "keyword";
 	if( empty( $response_result ) ){
-		$results = $wpdb->get_results("SELECT * FROM `$table` WHERE `keyword` REGEXP '".$keyword."'");
+		$results = $wpdb->get_results($wpdb->prepare("SELECT * FROM %i WHERE %i REGEXP %s", $table,$field,$keyword));
+		
+		
 		if(!empty($results)){
 			foreach($results as $result){
 				$response_result[] = array('id'=>$result->id,'query'=>$result->query, 'response'=>$result->response, 'score'=>1);

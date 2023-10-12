@@ -159,13 +159,13 @@ $(document).on('click','.wp-chatbot-remove-support',function () {
    //for downloading gc-client
     $('#qc_wpbot_gc_download').on('click', function(e){
         e.preventDefault();
-        
         $.ajax(
             {
               type: 'POST', // 'POST' here so that _upload_ progress _also_ makes sense; 
                             // Change to 'GET' if you need. 
               url: ajax_object.ajax_url, data: {
-                  'action': 'qcld_wp_chatbot_gc_client_download'
+                  'action': 'qcld_wp_chatbot_gc_client_download',
+                  'nonce': ajax_object.ajax_nonce,
               },
               beforeSend: function()
               {
@@ -181,7 +181,8 @@ $(document).on('click','.wp-chatbot-remove-support',function () {
                             type: 'POST', // 'POST' here so that _upload_ progress _also_ makes sense; 
                                         // Change to 'GET' if you need. 
                             url: ajax_object.ajax_url, data: {
-                                'action': 'qcld_wp_chatbot_gc_client_extract'
+                                'action': 'qcld_wp_chatbot_gc_client_extract',
+                                'nonce': ajax_object.ajax_nonce
                             },
                             beforeSend: function()
                             {
@@ -487,6 +488,7 @@ $(document).on('click','.wp-chatbot-lng-item-remove',function () {
               url: ajax_object.ajax_url, data: {
                 'action': 'qcld_wp_df_api_call',
                 'dfquery': 'hi',
+                'nonce': ajax_object.ajax_nonce,
                 'sessionid': 'wpwBot_df_201sdf8071'
               },
               beforeSend: function()
@@ -735,7 +737,8 @@ $(document).on('click','.wp-chatbot-lng-item-remove',function () {
 
             data: {
 
-                action: 'qcld-wp-chabot-reindex'
+                action: 'qcld-wp-chabot-reindex',
+                'nonce': ajax_object.ajax_nonce
 
             },
 
@@ -839,7 +842,8 @@ $(document).on('click','.wp-chatbot-lng-item-remove',function () {
             method: 'post',
             url: ajax_object.ajax_url,
             data: {
-                action: 'qcld-wp-chabot-cancel-index'
+                action: 'qcld-wp-chabot-cancel-index',
+                'nonce': ajax_object.ajax_nonce
             }
         });
     }
@@ -1141,28 +1145,7 @@ $(document).on('click','.wp-chatbot-lng-item-remove',function () {
                 }
             });
         }
-        $('#post_conversion_files').on('click','.qcld_convert_upload',function(){
-            var filename = $('.qcld_convert_upload').attr('data-file');
-            var lines = $('.qcld_convert_upload').attr('data-lines');
-    
-            $.ajax({
-                url: ajax_object.ajax_url,					
-                type: "POST",
-                dataType: "JSON",
-                data: {
-                    action : 'qcld_openai_upload_pagetraining_file',
-                    data: lines,
-                    filename: filename,
-                },
-                success: function(res) {
-                  location.reload();
-                  setTimeout(() => {
-                    jQuery('a[href$="#wp-chatbot-openai-training-model"]').trigger('click'); 
-                  }, 5000);
-                }
-            });
-        
-        })
+ 
         $("#wp-chatbot-data_post_converter").on('click','.qcld_convert_data', function(){
             var list = $("input[name='wp_chatbot_data_converter_list[]']:checked").map(function () {
                 return this.value;
@@ -1341,7 +1324,8 @@ $(document).on('click','.wp-chatbot-lng-item-remove',function () {
                 qcld_seo_special_effects: qcld_seo_special_effects,
                 qcld_seo_img_size: qcld_seo_img_size,
                 qcld_seo_num_images: qcld_seo_num_images,
-                action: 'qcld_openai_image_generate' 
+                action: 'qcld_openai_image_generate',
+                nonce: ajax_object.ajax_url,
             };
          
             $.ajax({

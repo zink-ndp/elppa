@@ -1218,29 +1218,8 @@ function qcld_wb_chatbot_support_phone(){
     echo json_encode($response);
     die();
 }
-// Order Status part.
-add_action('wp_ajax_qcld_wb_chatbot_check_user', 'qcld_wb_chatbot_check_user');
-add_action('wp_ajax_nopriv_qcld_wb_chatbot_check_user', 'qcld_wb_chatbot_check_user');
-function qcld_wb_chatbot_check_user(){
-    global $wpcommerce;
-    $user_name = trim(sanitize_text_field($_POST['user_name']));
-    $response = array();
-    $response['message'] = "";
-    if (username_exists($user_name)) {
-        if (get_option('qlcd_wp_chatbot_order_user') == 'login') {
-            $response['status'] = "success";
-            $response['message'] .= wp_kses_post(wpb_randmom_message_handle(unserialize(get_option('qlcd_wp_chatbot_order_username_thanks'))));
-            $response['html'] .= '<p>' . wp_kses_post(wpb_randmom_message_handle(unserialize(get_option('qlcd_wp_chatbot_order_username_password')))) . '</p>';
-        } else if (get_option('qlcd_wp_chatbot_order_user') == 'not_login') {
-            $response = get_order_by_username($user_name);
-        }
-    } else {
-        $response['status'] = "fail";
-        $response['message'] .= '<strong>' . $user_name . '</strong> ' . wp_kses_post(wpb_randmom_message_handle(unserialize(get_option('qlcd_wp_chatbot_order_username_not_exist'))));
-    }
-    wp_send_json($response);
-    die();
-}
+// Order Status part. removed
+
 function wpb_randmom_message_handle($items){
     return $items[rand(0, count($items) - 1)];
 }
@@ -1757,26 +1736,26 @@ function qc_dynamic_intent(){
 }
 
 //User login on Checkout page.
-add_action('wp_ajax_qcld_wb_chatbot_checkout_user_login', 'qcld_wb_chatbot_checkout_user_login');
-add_action('wp_ajax_nopriv_qcld_wb_chatbot_checkout_user_login', 'qcld_wb_chatbot_checkout_user_login');
-function qcld_wb_chatbot_checkout_user_login(){
-    // Nonce is checked, get the POST data and sign user on
-    $info = array();
-    //$info['nonce'] = $_POST['nonce_val'];
-    $info['user_login'] = trim(sanitize_text_field($_POST['user_name']));
-    $info['user_password'] = trim(sanitize_text_field($_POST['user_pass']));
-    $info['remember'] = true;
-    $user_signon = wp_signon($info, false);
-    // $response=$info;
-    $response = array();
-    if (is_wp_error($user_signon)) {
-        // $response['status'] = "fail";
-        $response = "no";
-    } else {
-        $response = "yes";
-    }
-    wp_send_json($response);
-}
+// add_action('wp_ajax_qcld_wb_chatbot_checkout_user_login', 'qcld_wb_chatbot_checkout_user_login');
+// add_action('wp_ajax_nopriv_qcld_wb_chatbot_checkout_user_login', 'qcld_wb_chatbot_checkout_user_login');
+// function qcld_wb_chatbot_checkout_user_login(){
+//     // Nonce is checked, get the POST data and sign user on
+//     $info = array();
+//     //$info['nonce'] = $_POST['nonce_val'];
+//     $info['user_login'] = trim(sanitize_text_field($_POST['user_name']));
+//     $info['user_password'] = trim(sanitize_text_field($_POST['user_pass']));
+//     $info['remember'] = true;
+//     $user_signon = wp_signon($info, false);
+//     // $response=$info;
+//     $response = array();
+//     if (is_wp_error($user_signon)) {
+//         // $response['status'] = "fail";
+//         $response = "no";
+//     } else {
+//         $response = "yes";
+//     }
+//     wp_send_json($response);
+// }
 // Load template for App Order Thank You page url
 function wp_chatbot_load_app_template($template){
     if (is_page('wpwbot-mobile-app')) {

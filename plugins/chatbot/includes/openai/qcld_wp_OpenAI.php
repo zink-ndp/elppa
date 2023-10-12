@@ -65,6 +65,7 @@ if(!class_exists('qcld_wp_OpenAI')){
                 "max_tokens" => 200,
                 "temperature" => 0
             );
+           
             $header  = [
                 'Content-Type: application/json',
                 'Authorization: Bearer ' . $api_key

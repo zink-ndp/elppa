@@ -294,9 +294,11 @@ var wpwKits;
                     } )
                 });
             }else{
+                console.log(globalwpw.settings.obj)
                 return jQuery.post(globalwpw.settings.obj.ajax_url, {
 					'action': 'qcld_wp_df_api_call',
                     'dfquery': text,
+                    'nonce': globalwpw.settings.obj.ajax_nonce,
                     'sessionid': localStorage.getItem('botsessionid')?localStorage.getItem('botsessionid'):'wpwBot_df_2018071'
                 });
             }
@@ -1186,8 +1188,8 @@ var wpwKits;
             })  
         },
         site_search:function(msg){
-            msg = wpwKits.filterStopWords(msg);
-            var data = {'action':'wpbo_search_site','name':globalwpw.hasNameCookie,'keyword':msg};
+            msg1 = wpwKits.filterStopWords(msg);
+            var data = {'action':'wpbo_search_site','name':globalwpw.hasNameCookie,'keyword':msg1};
             wpwKits.ajax(data).done(function (res) {
                 var json=$.parseJSON(res);
                 if(json.status=='success'){

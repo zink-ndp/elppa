@@ -71,15 +71,7 @@
                 </label>
             </div>
         </div>
-        <div class="<?php esc_attr_e( 'mb-3','wpbot');?>">
-            <div class="">
-                <label><?php esc_html_e('Conversation continuity Only works in promt Q/A, Chat and friend chat'); ?></label>
-            </div>
-            <div class="<?php esc_attr_e( 'form-check form-switch my-4','wpbot');?>">
-                <input class="<?php esc_attr_e( 'form-check-input','wpbot');?>" type="checkbox" <?php echo (get_option( 'conversation_continuity') == 1) ? esc_attr( 'checked') : '';?>  role="switch" value="" id="<?php esc_attr_e( 'conversation_continuity','wpbot');?>">
-                <label class="<?php esc_attr_e( 'form-check-label','wpbot');?>" for="<?php esc_attr_e( 'conversation_continuity','wpbot');?>"><?php esc_html_e( 'Enable conversation continuity','wpbot');  ?></label>
-            </div>
-        </div>
+       
         
         <div class="<?php esc_attr_e( 'mb-3','wpbot');?>">
             
